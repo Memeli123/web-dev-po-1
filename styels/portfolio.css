@@ -50,6 +50,10 @@ nav{
      
      color: #757575;
 }
+
+.text-center{
+    text-align: center;
+}
 /* header */
 .header{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
@@ -68,6 +72,9 @@ nav{
     border-radius: 10px;
     padding: 130px 150-px;
     text-align: center;
+    
+}
+main section{
     margin: 130px;
 }
 
@@ -115,4 +122,14 @@ nav li a{
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+/* skills section style */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0p rgba(0, 0, 0, 0.06);
 }
